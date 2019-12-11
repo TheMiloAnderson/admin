@@ -199,7 +199,7 @@ class ArchivedResultsTable extends React.Component {
     
 function mapStateToProps(state) {
   return {
-    filteredOldEvents: selectionStateBranch.selectors.getFilteredEvents(state),
+    filteredOldEvents: selectionStateBranch.selectorsArchive.getFilteredEvents(state),
     allResearchers: researcherStateBranch.selectors.getAllResearchers(state),
     researchersEmailById: researcherStateBranch.selectors.getResearchersEmailById(state),
   };

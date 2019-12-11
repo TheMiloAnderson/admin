@@ -50,7 +50,7 @@ import {
 import {
   requestResearcherById,
 } from "../researchers/actions";
-import { getDateLookupType } from "../selections/selectors";
+import { getDateLookupType } from "../selections/selectorsArchive";
 
 require('dotenv').config();
 
